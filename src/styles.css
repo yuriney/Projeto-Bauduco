@@ -1,0 +1,225 @@
+
+
+   .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;    
+  } 
+
+  #github-logo {
+    height: 50px;
+    margin: 0;
+  }
+
+  #firebase-logo {
+    height: 30px;
+    margin: 0 15px 5px 15px;
+  } 
+  
+  #fusca-logo {
+    height: 60px;
+    left: 0;
+    margin-left: 20px;
+    top: 0;
+    position: absolute;
+  } 
+
+  #menu-hamburguer{    
+    opacity: 0;
+  }
+
+  #github-logo:hover,
+  #firebase-logo:hover,
+  #fusca-logo:hover{
+    opacity: 0.8;
+  }   
+  
+
+  .tela_home{
+    margin: 2px 2px 0 202px;
+    padding-top: 20px;
+    width: 85%;
+    height: 80%;
+    position: fixed;
+    background-color: #1976D2; 
+    border-radius: 0.5%;  
+  }
+  
+  .breadcrumb_home .p-breadcrumb{    
+      margin: 0 2px 0 202px;
+      background-color: #FFC40B;
+  }
+
+  .tela_home h1{
+    text-align: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+  }
+
+  .telaHomeStitulo {    
+    text-align: right;
+    margin: 20px 20px; 
+    color: white;
+    font-weight: lighter;
+    font-family: "Lato", sans-serif;
+  }
+
+  
+
+  .img{
+    border-radius: 50%;
+    height: 15em !important;   
+  }
+    
+    #Angular{
+      border-radius: 50%;
+      height: 25%;
+      margin: 9% 0 0 40%; 
+      position: fixed;
+    }
+
+
+  
+.tela_principal{
+  position: fixed;
+  top: 62px;
+  left: 0;
+  right: 0;
+  bottom: 0;   
+}
+
+.Menu_Lateral{
+    height: 100%;
+    width: 200px;
+    position: fixed;    
+    overflow-x: hidden; 
+  }
+
+.p-breadcrumb{
+  margin: 0 2px 0 202px;
+  background-color: #FFC40B; 
+  color: #593326;
+}
+
+.tela_principal img{
+  margin: 30px 0 0 250px;
+  height: 400px;  
+  
+}
+
+
+    @media (max-width: 450px) {
+
+      #menu-hamburguer{
+        font-size: 30px;
+        opacity: 1;
+        color: white;        
+      }
+
+      #menu-hamburguer:hover{
+        opacity: 0.8;
+      } 
+
+      #fusca-logo {
+        display: none;
+      } 
+
+      .toolbar{
+        padding-left: 15px;
+      }
+
+      .tela_home{
+        margin: 2px;
+        padding-top: 20px;
+        width: 99%;
+        height: 85%;
+        position: fixed;
+        background-color: #1976D2; 
+        border-radius: 0.5%;
+        z-index: -3;
+      }
+
+      .tela_home h1{      
+        margin: 3% 0 90% 0;
+      }
+    
+      .tela_home h2,
+      .tela_home h3{      
+        margin: 0 15px 10px 0;    
+        color: white;      
+        font-size: 18px;
+      }
+
+      .tela_home h4{       
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+      }     
+      
+        #Eduardo{   
+            border-radius: 50%;
+            height: 15%;
+            margin: 55% 0 0 55%;
+            position: fixed;
+            z-index: -2;
+          }
+          
+          #Angular{
+              border-radius: 50%;
+              height: 19%;
+              margin: 50% 0 0 -5%;
+              position: fixed;
+              z-index: -2;
+            }         
+          
+
+          .efeitoMenu {            
+            height: 85%;
+            width: 200px;
+            position: absolute;    
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding: 0 0 0 3px;
+            left: -200px;         
+          }
+
+          .abrirMenu{
+            margin-left: 200px;           
+          }         
+
+          #menuLateral{
+            height: 85%;
+            width: 200px;
+            position: absolute;    
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding: 0 0 0 3px;
+            margin-top: 50px;
+          }
+
+
+           #telaPrincipal{
+            margin: 0;           
+            padding: 0px; 
+            } 
+
+          .tela_principal img{ 
+            height: 300px;  
+            max-width: 99%;
+            margin: 50px 0 0 2px;
+          }
+
+          .tela_principal .p-breadcrumb{
+            margin: 0 2px 0 0;        
+            
+          }
+    }
